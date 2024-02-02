@@ -12,6 +12,8 @@
 
     docker run -d --name voltest -v myvol:/app nginx:latest
 
+Here I am mapping the myvol to a logical space inside container called `app`
+
 ## Connect to the instance
 
     docker exec -it voltest bash
